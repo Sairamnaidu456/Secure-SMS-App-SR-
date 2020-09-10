@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /*
+  ~
+  ~  *
+  ~
+  ~  *  Created By SAI RAM GUDI on 09/09/2020 05:00 PM
+  ~
+  ~  *  Copyright © 2020. All rights reserved © 2020
+  ~
+  ~  *  Last Modified: 10/09/2020 7:30 PM
+  ~
+  ~  *
+  ~
+  ~  */
+  ~  */
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+
+
+    <EditText
+        android:id="@+id/textencryt"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="top"
+        android:hint="Type text to encryt" />
+
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type phone  number" />
+
+    <EditText
+        android:id="@+id/passwordencryt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Encryption Key" />
+
+    <TextView
+        android:id="@+id/Outputtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/encrytbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Encryt" />
+
+
+
+    <EditText
+        android:id="@+id/ecrytedText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Encryted text" />
+
+    <EditText
+        android:id="@+id/Password0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Encryption Key" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Decrypt"
+        android:id="@+id/decode"
+        />
+    <TextView
+        android:id="@+id/Outputtext0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="145dp"
+        android:hint="©Created By SaiRam Gudi "
+        android:text="©Created By SaiRam Gudi " />
+
+
+</LinearLayout>

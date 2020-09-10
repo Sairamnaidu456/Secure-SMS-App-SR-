@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /*
+  ~
+  ~  *
+  ~
+  ~  *  Created By SAI RAM GUDI on 09/09/2020 05:00 PM
+  ~
+  ~  *  Copyright © 2020. All rights reserved © 2020
+  ~
+  ~  *  Last Modified: 10/09/2020 7:30 PM
+  ~
+  ~  *
+  ~
+  ~  */
+  ~  */
+  -->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.SAIRAM">
+
+    <uses-permission android:name="android.permission.SEND_SMS"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.SAIRAM.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+
+</manifest>

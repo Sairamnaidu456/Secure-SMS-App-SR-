@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /*
+  ~
+  ~  *
+  ~
+  ~  *  Created By SAI RAM GUDI on 09/09/2020 05:00 PM
+  ~
+  ~  *  Copyright © 2020. All rights reserved © 2020
+  ~
+  ~  *  Last Modified: 10/09/2020 7:30 PM
+  ~
+  ~  *
+  ~
+  ~  */
+  ~  */
+  -->
+
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@drawable/ic_launcher_background" />
+    <foreground android:drawable="@drawable/ic_launcher_foreground" />
+</adaptive-icon>
